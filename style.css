@@ -1,0 +1,129 @@
+/* Simple but clean styling - not overdoing it */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+/* Card design for each section */
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 10px;
+}
+
+/* Input styling */
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 150px;
+}
+
+input:focus {
+    border-color: #667eea;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #5a6fd8;
+    transform: scale(1.05);
+}
+
+/* Result boxes */
+#result, #mathResult, #wordResult, #numberResult {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 5px;
+    border-left: 4px solid #667eea;
+    min-height: 20px;
+}
+
+/* Magic box for DOM manipulation */
+#magicBox {
+    background: #ffe066;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 15px 0;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+
+#magicBox.hidden {
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+/* List styling */
+#itemList {
+    list-style: none;
+    padding: 0;
+}
+
+#itemList li {
+    background: #e8f4fd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 3px solid #667eea;
+    transition: all 0.3s ease;
+}
+
+#itemList li:hover {
+    background: #d1ecf1;
+    transform: translateX(10px);
+}
+
+/* Color change classes for DOM manipulation */
+.red-theme {
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%) !important;
+}
+
+.green-theme {
+    background: linear-gradient(135deg, #26de81 0%, #20bf6b 100%) !important;
+}

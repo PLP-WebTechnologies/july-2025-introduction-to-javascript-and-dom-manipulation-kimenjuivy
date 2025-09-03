@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My JavaScript Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Fun Zone</h1>
+        
+        <!-- Part 1: Basic stuff -->
+        <section class="card">
+            <h2>Tell Me About Yourself</h2>
+            <input type="text" id="name" placeholder="Your name">
+            <input type="number" id="age" placeholder="Your age">
+            <button onclick="checkUser()">Check It Out!</button>
+            <div id="result"></div>
+        </section>
+
+        <!-- Part 2: Function demos -->
+        <section class="card">
+            <h2>Quick Calculator</h2>
+            <input type="number" id="num1" placeholder="Number 1">
+            <input type="number" id="num2" placeholder="Number 2">
+            <button onclick="doMath()">Calculate</button>
+            <div id="mathResult"></div>
+        </section>
+
+        <section class="card">
+            <h2>Word Magic</h2>
+            <input type="text" id="word" placeholder="Type something cool">
+            <button onclick="transformWord()">Transform</button>
+            <div id="wordResult"></div>
+        </section>
+
+        <!-- Part 3: Loop examples -->
+        <section class="card">
+            <h2>Number Games</h2>
+            <button onclick="showNumbers()">Show Me Numbers</button>
+            <button onclick="countdown()">Start Countdown</button>
+            <div id="numberResult"></div>
+        </section>
+
+        <!-- Part 4: DOM fun -->
+        <section class="card">
+            <h2>Page Magic</h2>
+            <button onclick="changeColor()">Change Colors</button>
+            <button onclick="addItem()">Add Item</button>
+            <button onclick="hideShow()">Toggle Box</button>
+            
+            <div id="magicBox">
+                <p>This box can disappear! 🎩</p>
+            </div>
+            
+            <ul id="itemList">
+                <li>First item</li>
+                <li>Second item</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
