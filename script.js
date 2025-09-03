@@ -1,6 +1,4 @@
-// JavaScript Fundamentals Assignment
-// Student: [Your Name]
-// All parts covered: variables, functions, loops, DOM manipulation
+
 
 // PART 1: JavaScript Basics - Variables and Conditionals
 function checkUser() {
